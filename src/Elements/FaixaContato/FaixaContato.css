@@ -1,0 +1,31 @@
+.faixaContatoContainer{
+    text-align: center;
+    margin: 150px 0;
+}
+
+.faixaContatoContainer h3{
+    font-size: 64px;
+    color: #F17D08;
+    
+}
+
+.faixaContatoTexto{
+    background-color: #F17D08 ;
+    padding: 100px 0;
+}
+
+.faixaContatoTexto p{
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+@media screen  and (max-width: 780px) {
+    .faixaContatoContainer h3{
+        font-size: 42px;
+    }
+
+    .faixaContatoTexto p{
+        font-size: 25px;
+    }
+}

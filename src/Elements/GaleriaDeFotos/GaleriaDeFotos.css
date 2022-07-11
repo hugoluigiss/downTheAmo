@@ -1,0 +1,14 @@
+.AppGaleriaDeFotos{
+    margin: 150px 0 650px 0;
+}
+
+.AppGaleriaDeFotos h2{
+    font-size: 32px;
+    color: #F17D08 ;
+}
+
+@media screen and (max-width:780px) {
+    .AppGaleriaDeFotos{
+        margin: 100px 0
+    }
+}

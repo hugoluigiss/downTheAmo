@@ -1,0 +1,11 @@
+.videoCentral{
+    text-align: center;
+    margin: 150px 0;
+}
+
+@media screen and (max-width: 780px){
+    .videoCentral iframe{
+     width: 80%;
+     height: 250px;
+    }
+}

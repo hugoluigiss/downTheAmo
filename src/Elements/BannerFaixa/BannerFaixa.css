@@ -1,0 +1,52 @@
+.BannerFaixaPai{
+    background-image: url(../../imagens/bannerGaleria.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+     height: 700px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items:flex-start;
+}
+
+
+
+.botaoFaixa{
+    background-color:#004F91;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size:40px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px black;
+    margin-left: 60px;   
+}
+
+@media screen and (max-width: 980px){
+    .botaoFaixa{
+        font-size: 32px;
+        padding: 10px;
+        position:relative;
+        bottom: 110px;
+    }
+    .BannerFaixaPai{
+        height: 450px;
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .botaoFaixa{
+        font-size: 22px;
+        padding: 10px;
+        position:relative;
+        bottom: 150px;
+        margin-left: 10px;
+    }
+    .BannerFaixaPai{
+        height: 450px;
+        padding: 10px;
+    }
+}
+
+

@@ -1,0 +1,71 @@
+.BannerInicial {
+    width: 100%;
+    text-align: center;
+    background-image: url(../../imagens/BannerMeninaSorrindo.png);
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.BannerInicial-fundo {
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+    
+}
+
+.BannerInicial-logo {
+    z-index: 2;
+    margin-top: 200px;
+    height: 300px;
+    opacity: 0.4;
+}
+
+header{
+    padding: 25px 0;
+    display: flex;
+}
+
+.nav-caixa-vazia{
+    width: 50%;
+}
+
+.nav-caixa {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    width: 50%;
+}
+
+.nav-caixa a {
+    text-decoration: 0;
+    margin-left: 10px;
+    color: white;
+    font-size:20px;
+    text-shadow: 1px 1px 2px black; 
+}
+
+@media screen and (max-width: 780px) {
+    .BannerInicial{
+        background-position: center;
+    }
+
+    .BannerInicial-logo{
+        width: auto;
+        height: 170px;
+    }
+
+    header{
+        flex-direction: column;
+    }
+
+    .nav-caixa-vazia{
+       display: none;
+    }
+    
+    .nav-caixa {
+        width: 100%;
+        padding: 30px 0;
+        background-color: rgb(0, 0, 0, 0.5);
+    }
+}

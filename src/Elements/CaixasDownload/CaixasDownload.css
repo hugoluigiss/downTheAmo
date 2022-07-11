@@ -1,0 +1,75 @@
+.caixa-Caixa-Download{
+    width: 25%;
+    height: 200px;
+    margin: 20px; 
+    
+    
+    
+}
+
+.caixaDownload{
+    width:100%;
+    background-color:#004F91;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.caixaDownload {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  
+    
+}
+
+.container-caixaDownload{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 100px 0;
+   
+
+}
+
+.caixaDownload:hover{
+    background-color: #F17D08;
+    
+}
+
+.caixaDownload:active{
+    background-color:#E3041F;
+    
+}
+
+.caixaDownload:hover{
+    color:#004F91;
+}
+
+.caixaDownload:active{
+    color:#ffffff;
+}
+
+@media screen and (max-width: 780px) {
+    .caixaDownload{
+        font-size: 30px;
+    }
+    .caixaDownload{
+        width: 100%;
+    }
+    .caixa-Caixa-Download{
+        width: 100%;
+    }
+}
+
