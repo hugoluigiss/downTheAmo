@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 980px){
     .botaoFaixa{
-        font-size: 32px;
+        font-size: 22px;
         padding: 10px;
         position:relative;
         bottom: 110px;
@@ -37,14 +37,14 @@
 
 @media screen and (max-width: 480px){
     .botaoFaixa{
-        font-size: 22px;
+        font-size: 17px;
         padding: 10px;
         position:relative;
-        bottom: 150px;
+        bottom: 30px;
         margin-left: 10px;
     }
     .BannerFaixaPai{
-        height: 450px;
+        height: 150px;
         padding: 10px;
     }
 }

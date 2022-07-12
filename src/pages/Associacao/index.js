@@ -1,5 +1,6 @@
 import React from "react";
 import CaixasDownload from "../../Elements/CaixasDownload";
+import Diretoria from "../../Elements/Diretoria";
 import ImagemCentral from "../../Elements/ImagemCentral";
 import MenuNav from "../../Elements/MenuNav";
 import Rodape from "../../Elements/Rodape";
@@ -21,8 +22,77 @@ function Associacao (){
             <div className="container-caixaDownload">
             <CaixasDownload documento= "./img/EstatutoAssociacao.pdf" nome='Estatuto'/>
             <CaixasDownload documento= "./img/CartaoCNPJ.pdf" nome='Cartão CNPJ'/>
-            <CaixasDownload documento= "./img/RelatórioDeAtividades.pdf" nome='Relatório de Atividades Anual'/>            
+            <CaixasDownload documento= "./img/RelatórioDeAtividades.pdf" nome='Relatório de Atividades Anual'/>          
             </div>
+
+            <h2 className="titulo-Diretoria">Diretória</h2>
+            <section className="container-Diretoria">
+            <Diretoria
+            image="./img/elisangela.png"
+            nome="Elisângela de Sousa Sales Andrade"
+            cargo="Diretora Presidente"
+            />
+            <Diretoria
+            image="./img/logoRedondo.png"
+            nome="Orileuda de Sousa Caetano"
+            cargo="Diretora Vice-presidente"
+            />
+            <Diretoria
+            image="./img/logoRedondo.png"
+            nome="Veruska Maria Pessoa Feitosa"
+            cargo="Primeira Diretora Tesoureira"
+            />
+            <Diretoria
+            image="./img/logoRedondo.png"
+            nome="Francisca Maria Freitas dos Santos"
+            cargo="Segunda Diretora Tesoureira"
+            />
+            <Diretoria
+            image="./img/logoRedondo.png"
+            nome="Maria do Socorro Oliveira Rocha"
+            cargo="Primeira Diretora Secretária"
+            />
+            <Diretoria
+            image="./img/logoRedondo.png"
+            nome="Elaine Ramos Sales"
+            cargo="Segunda Diretora Secretária"
+            />
+            <Diretoria
+            image="./img/logoRedondo.png"
+            nome="João Alves de Carvalho Neto"
+            cargo="Diretor de Relações Públicas"
+            />
+            <Diretoria
+            image="./img/logoRedondo.png"
+            nome="Maria do Rosário de Fátima Franco Batista"
+            cargo="Primeira Conselheira Fiscal"
+            />
+            <Diretoria
+            image="./img/logoRedondo.png"
+            nome="Cláudia Nunes da Silva"
+            cargo="Segunda Conselheira Fiscal"
+            />
+            <Diretoria
+            image="./img/logoRedondo.png"
+            nome="Osvaldino Pereira de Sousa"
+            cargo="Terceiro Conselheiro Fiscal"
+            />
+            <Diretoria
+            image="./img/logoRedondo.png"
+            nome="Rosana Maria de Oliveira Castro"
+            cargo="Primeira Suplente de Conselheira Fiscal"
+            />
+            <Diretoria
+            image="./img/logoRedondo.png"
+            nome="Florença de Oliveira e Silva"
+            cargo="Segunda Suplente de Conselheira Fiscal"
+            />
+            <Diretoria
+            image="./img/logoRedondo.png"
+            nome="Maria Silvana dos Santos Machado"
+            cargo="Terceira Suplente de Conselheira Fiscal"
+            />
+            </section>
 
             <Rodape/>
 

@@ -1,19 +1,21 @@
 import React from "react";
-import FaixaContato from "../../Elements/FaixaContato";
+import ContatoInfo from "../../Elements/ContatoInfo";
+
 import MenuNav from "../../Elements/MenuNav";
+import Rodape from "../../Elements/Rodape";
 import TituloTexto from "../../Elements/TituloTexto";
 
 
-function Contato (){
-    return(
+function Contato() {
+    return (
         <div>
-        <MenuNav/>
-        <TituloTexto
+            <MenuNav />
+            <TituloTexto
                 titulo={'Contato'}
                 texto={'Estamos aguardando a sua mensagem, envia seu contato e responderemos assim que possível.'}
             />
-
-        <FaixaContato/>
+            <ContatoInfo/>
+            <Rodape />
         </div>
     )
 }
