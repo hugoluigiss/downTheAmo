@@ -15,7 +15,7 @@ function Associacao (){
         <MenuNav/>
         <TituloTexto
                 titulo={'Associação'}
-                texto={'Saiba mais sobre sobre nossa associação, assim como documentos e relatórios atualizados para nossos associados!'}
+                texto={'Saiba mais sobre nossa associação, assim como documentos e relatórios atualizados para nossos associados!'}
             />
 
             <ImagemCentral image='./img/FachadaAssociacao.jpg' alt="Membros da associacao DownTheAmo em frente a sede." />
@@ -23,7 +23,8 @@ function Associacao (){
             <div className="container-caixaDownload">
             <CaixasDownload documento= "./img/EstatutoAssociacao.pdf" nome='Estatuto'/>
             <CaixasDownload documento= "./img/CartaoCNPJ.pdf" nome='Cartão CNPJ'/>
-            <CaixasDownload documento= "./img/RelatórioDeAtividades.pdf" nome='Relatório de Atividades Anual'/>          
+            <CaixasDownload documento= "./img/RelatorioDeAtividades 2017-2020.pdf" nome='Relatório de Atividades 2017/2020'/>   
+            <CaixasDownload documento= "./img/RelatorioDeAtividades 2021.pdf" nome='Relatório de Atividades 2021'/>       
             </div>
             <h2 className="titulo-Diretoria">Retrospectiva 2020</h2>
             <VideoCentral video={<iframe  width="560" height="315" src="https://www.youtube.com/embed/CqA4j1TF91Q" title="YouTube video player"  frameBorder="0"  allowFullScreen ></iframe>} />

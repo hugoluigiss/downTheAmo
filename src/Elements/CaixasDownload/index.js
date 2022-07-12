@@ -6,7 +6,7 @@ const CaixasDownload = (props) => {
     return (
 
         <div className="caixa-Caixa-Download">
-            <a href={props.documento} download>
+            <a href={props.documento} target="_blank" >
                 <div className="caixaDownload">{props.nome}</div>
             </a>
         </div>
