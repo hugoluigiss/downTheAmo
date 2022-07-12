@@ -5,6 +5,7 @@ import ImagemCentral from "../../Elements/ImagemCentral";
 import MenuNav from "../../Elements/MenuNav";
 import Rodape from "../../Elements/Rodape";
 import TituloTexto from "../../Elements/TituloTexto";
+import VideoCentral from "../../Elements/VideoCentral";
 
 
 
@@ -24,6 +25,8 @@ function Associacao (){
             <CaixasDownload documento= "./img/CartaoCNPJ.pdf" nome='Cartão CNPJ'/>
             <CaixasDownload documento= "./img/RelatórioDeAtividades.pdf" nome='Relatório de Atividades Anual'/>          
             </div>
+            <h2 className="titulo-Diretoria">Retrospectiva 2020</h2>
+            <VideoCentral video={<iframe  width="560" height="315" src="https://www.youtube.com/embed/CqA4j1TF91Q" title="YouTube video player"  frameBorder="0"  allowFullScreen ></iframe>} />
 
             <h2 className="titulo-Diretoria">Diretória</h2>
             <section className="container-Diretoria">

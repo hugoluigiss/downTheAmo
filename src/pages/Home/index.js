@@ -9,6 +9,7 @@ import InitialBanner from "../../Elements/InitialBanner";
 import RedesSociais from "../../Elements/RedesSociais";
 import Rodape from "../../Elements/Rodape";
 import TituloTexto from "../../Elements/TituloTexto";
+import VideoCentral from "../../Elements/VideoCentral";
 
 
 
@@ -46,6 +47,7 @@ function Home() {
         titulo={'Nossa Visão'}
         texto={'Ser um agente de informação, divulgação e referência sobre a Síndrome de Down no Estado do Piauí.'}
       />
+      <VideoCentral video= {<iframe width="560" height="315" src="https://www.youtube.com/embed/rhGl-o1VhAA" title="YouTube video player" frameBorder="0"  allowFullScreen></iframe> }/>
       <BannerFaixa/>
       <ImagemCentral image="./img/fotoMontagem.png" alt= "Foto crianças com sindrome de down" />
       <FaixaDoacao/>
