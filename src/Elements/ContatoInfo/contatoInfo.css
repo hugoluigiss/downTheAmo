@@ -6,9 +6,13 @@
 }
 
 .ContatoInfo a{
-
     color: #F17D08 ;
+}
 
+@media screen and (max-width: 480px){
+    .ContatoInfo{
+        font-size: 15px;
+    }
 }
 
 
