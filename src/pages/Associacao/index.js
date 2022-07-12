@@ -36,62 +36,62 @@ function Associacao (){
             cargo="Diretora Presidente"
             />
             <Diretoria
-            image="./img/logoRedondo.png"
+            image="./img/Orileuda.jpeg"
             nome="Orileuda de Sousa Caetano"
             cargo="Diretora Vice-presidente"
             />
             <Diretoria
-            image="./img/logoRedondo.png"
+            image="./img/Veruska.jpeg"
             nome="Veruska Maria Pessoa Feitosa"
             cargo="Primeira Diretora Tesoureira"
             />
             <Diretoria
-            image="./img/logoRedondo.png"
+            image="./img/Fran.jpeg"
             nome="Francisca Maria Freitas dos Santos"
             cargo="Segunda Diretora Tesoureira"
             />
             <Diretoria
-            image="./img/logoRedondo.png"
+            image="./img/Socorro.jpeg"
             nome="Maria do Socorro Oliveira Rocha"
             cargo="Primeira Diretora Secretária"
             />
             <Diretoria
-            image="./img/logoRedondo.png"
+            image="./img/Elaine.jpeg"
             nome="Elaine Ramos Sales"
             cargo="Segunda Diretora Secretária"
             />
             <Diretoria
-            image="./img/logoRedondo.png"
+            image="./img/Neto.jpeg"
             nome="João Alves de Carvalho Neto"
             cargo="Diretor de Relações Públicas"
             />
             <Diretoria
-            image="./img/logoRedondo.png"
+            image="./img/Fatima.jpeg"
             nome="Maria do Rosário de Fátima Franco Batista"
             cargo="Primeira Conselheira Fiscal"
             />
             <Diretoria
-            image="./img/logoRedondo.png"
+            image="./img/Claudia.jpeg"
             nome="Cláudia Nunes da Silva"
             cargo="Segunda Conselheira Fiscal"
             />
             <Diretoria
-            image="./img/logoRedondo.png"
+            image="./img/Osvaldino.jpeg"
             nome="Osvaldino Pereira de Sousa"
             cargo="Terceiro Conselheiro Fiscal"
             />
             <Diretoria
-            image="./img/logoRedondo.png"
+            image="./img/Rosana.jpeg"
             nome="Rosana Maria de Oliveira Castro"
             cargo="Primeira Suplente de Conselheira Fiscal"
             />
             <Diretoria
-            image="./img/logoRedondo.png"
+            image="./img/Florença.jpeg"
             nome="Florença de Oliveira e Silva"
             cargo="Segunda Suplente de Conselheira Fiscal"
             />
             <Diretoria
-            image="./img/logoRedondo.png"
+            image="./img/Silvana.jpeg"
             nome="Maria Silvana dos Santos Machado"
             cargo="Terceira Suplente de Conselheira Fiscal"
             />
