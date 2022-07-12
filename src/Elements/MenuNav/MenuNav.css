@@ -36,9 +36,10 @@
         text-align: center;
     }
     .menu-formato-paginas{
-        width: 100%;
+        width: 90%;
         justify-content: space-around;
         flex-wrap: wrap;
+        padding: 20px 0;
     }
 
     header{
