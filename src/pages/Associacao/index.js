@@ -28,7 +28,7 @@ function Associacao (){
             <h2 className="titulo-Diretoria">Diretória</h2>
             <section className="container-Diretoria">
             <Diretoria
-            image="./img/elisangela.png"
+            image="./img/fotoelisangela.png"
             nome="Elisângela de Sousa Sales Andrade"
             cargo="Diretora Presidente"
             />
@@ -93,10 +93,7 @@ function Associacao (){
             cargo="Terceira Suplente de Conselheira Fiscal"
             />
             </section>
-
             <Rodape/>
-
-       
         </div>
     )
 }
