@@ -4,8 +4,9 @@ import Eventos from "../../Elements/Eventos";
 import FaixaContato from "../../Elements/FaixaContato";
 import FaixaDoacao from "../../Elements/FaixaDoacao";
 import FaixaVermelha from "../../Elements/FaixaVermelha";
-import ImagemCentral from "../../Elements/ImagemCentral";
 import InitialBanner from "../../Elements/InitialBanner";
+import MenuResponsivo from "../../Elements/menuResponsivo";
+
 import RedesSociais from "../../Elements/RedesSociais";
 import Rodape from "../../Elements/Rodape";
 import TituloTexto from "../../Elements/TituloTexto";
@@ -17,6 +18,7 @@ import VideoCentral from "../../Elements/VideoCentral";
 function Home() {
   return (
     <div>
+      <MenuResponsivo/>
       <InitialBanner />
       <FaixaVermelha />
 
@@ -49,7 +51,6 @@ function Home() {
       />
       <VideoCentral video= {<iframe width="560" height="315" src="https://www.youtube.com/embed/rhGl-o1VhAA" title="YouTube video player" frameBorder="0"  allowFullScreen></iframe> }/>
       <BannerFaixa/>
-      <ImagemCentral image="./img/fotoMontagem.png" alt= "Foto crianças com sindrome de down" />
       <FaixaDoacao/>
       <FaixaContato/>
       <RedesSociais/>

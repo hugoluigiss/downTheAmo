@@ -26,10 +26,139 @@
     height: 50px;
 }
 
+/*INICIO DO MENU RESPONSIVO*/
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: black;
+    color: white;
+}
+
+.navBox1{
+    width: 50%;
+}
+
+.navBox2{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navBox2 a{
+    font-size: 25px;
+    color: #F17D08;
+
+}
+
+.botaoMenu{
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin: 25px;
+    background-color:#F17D08 ;
+    border: none;
+}
+
+.botaoFechar{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    
+    
+}
+
+#iconeMenu{
+   font-size: 50px;
+   color: white;
+  padding: 5px;
+  
+  
+}
+
+#iconeFechar{
+font-size: 40px;
+   color: red;
+   margin-right: 50px;
+   transition: 0.7s;
+   
+}
+
+#iconeFechar:hover {
+    transform: rotate(0.7turn);
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 50%;
+    height: 100vh;
+    box-sizing: border-box;
+    position: fixed;
+    transform: translate(-100%);
+    transition: 0.7s;
+    
+}
+
+.mostrarMenu{
+    transform: translate(0);
+}
+
+.sideBarCabecalho{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 95%;
+    padding: 5px;
+}
+
+
+.sideBarCabecalho img{
+    height: 100px;
+
+}
+
+.listaMenu {
+    list-style: none;
+    color: black;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-weight: 600;
+   
+}
+
+.listaMenu li{
+    margin-bottom: 50px;
+    
+}
+
+.listaMenu a {
+    color: black;
+}
+
+
+.listaRedes{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    
+}
+
 @media screen and (max-width: 780px) {
+
+    .nav-caixa{
+        display: none;
+    }
     .menuNav{
         flex-direction: column;
-        align-items: center;
+        align-items:flex-start;
     }
 
     .nav-caixa-vazia2{
@@ -40,6 +169,7 @@
         justify-content: space-around;
         flex-wrap: wrap;
         padding: 20px 0;
+        display: none;
     }
 
     header{
@@ -47,3 +177,4 @@
     }
 
 }
+

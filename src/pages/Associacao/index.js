@@ -29,7 +29,7 @@ function Associacao (){
             <h2 className="titulo-Diretoria">Retrospectiva 2020</h2>
             <VideoCentral video={<iframe  width="560" height="315" src="https://www.youtube.com/embed/CqA4j1TF91Q" title="YouTube video player"  frameBorder="0"  allowFullScreen ></iframe>} />
 
-            <h2 className="titulo-Diretoria">Diretória</h2>
+            <h2 className="titulo-Diretoria">Diretoria</h2>
             <section className="container-Diretoria">
             <Diretoria
             image="./img/fotoelisangela.png"
